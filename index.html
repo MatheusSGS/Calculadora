@@ -11,12 +11,10 @@
         <div class="calculator">
             <input type="text" id="display" disabled>
             <div class="buttons">
-                <!-- Coluna esquerda com operadores -->
                 <button class="btn clear" onclick="clearDisplay()">C</button>
                 <button class="btn operator" onclick="appendToDisplay('/')">÷</button>
                 <button class="btn operator" onclick="appendToDisplay('*')">×</button>
 
-                <!-- Coluna central com números -->
                 <button class="btn" onclick="appendToDisplay('7')">7</button>
                 <button class="btn" onclick="appendToDisplay('8')">8</button>
                 <button class="btn" onclick="appendToDisplay('9')">9</button>
@@ -28,7 +26,6 @@
                 <button class="btn" onclick="appendToDisplay('3')">3</button>
                 <button class="btn" onclick="appendToDisplay('0')">0</button>
 
-                <!-- Coluna direita com operadores -->
                 <button class="btn operator" onclick="appendToDisplay('+')">+</button>                
                 <button class="btn operator" onclick="appendToDisplay('-')">−</button>
                 <button class="btn equals" onclick="calculateResult()">=</button>
